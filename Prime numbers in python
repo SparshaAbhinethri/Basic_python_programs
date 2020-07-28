@@ -1,0 +1,9 @@
+q = int(input())
+lst = []
+for n in range(2,q):
+    for i in range(2,n-1):
+        if(n%i==0):
+           break
+    else:
+      lst.append(n)
+print(lst)
