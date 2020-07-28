@@ -1,0 +1,7 @@
+n = int(input())
+sum = 0
+lst=[0,1,1,2]
+for i in range(2,n):
+  sum = lst[-1] + lst[-2]
+  lst.append(sum)
+print(lst)
