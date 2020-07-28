@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(b*b) - 4*a*c
+e = d**0.5
+sol1 = (-b+e)/2*a
+sol2 = (-b-e)/2*a
+print(sol1,sol2)
